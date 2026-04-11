@@ -22,33 +22,58 @@
 
 <body>
     <header class="hero">
-        <nav class="nav">
-            <div class="logo-hero">
-                <img class="logo-hero-image" src="Assets/Images/logo navbar.png" alt="logo navbar">
+        <nav class="navbar navbar-expand-lg bg-transparent container-fluid">
+            <div class="container-fluid">
+                <img src="Assets/Images/logo navbar.png" alt="logo nav" width="55px">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-item" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item" href="#services">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item" href="#proyectos-seleccionados">Proyectos Seleccionados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item" href="#acerca">Acerca del Estudio</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div menu-button>
-                <i class="bi bi-list"></i>
-            </div>
-            <div class="nav-links">
-                <ul>
-                    <li class="link"><a href="#inicio">Inicio</a></li>
-                    <li><a href="#about">Sobre el Estudio</a></li>
-                    <li><a href="#services">Servicios</a></li>
-                    <li><a href="#projects">Proyectos</a></li>
-                </ul>
-            </div>
-
         </nav>
+        <div class="hero-container">
+            <div class="logo-hero">
+                <img class="logo-hero-image" src="Assets/Images/logo-hero.png" alt="logo sección hero">
+            </div>
+            <div>
+                <h2>Tu visión,<br>hecha realidad</h2>
+            </div>
+            <div class="hero-div">
+                <div>
+                    <span>Creando la base visual para la identidad de tu marca.</span>
+                </div>
+
+                <div class="button">
+                    <a href="#contacto">Hablemos</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+
     </header>
     <section id="inicio">
-        <div>
-            <img src="Assets/Images/logo-hero.png" alt="logo sección hero">
-        </div>
-        <div>
-            <h1>Tu visión, visualmente realizada.</h1>
-            <span>Creando la base visual para la identidad de tu marca.</span>
-            <link rel="stylesheet" href="Hablemos"> <i class="bi bi-arrow-right-short"></i>
-        </div>
+
 
     </section>
 

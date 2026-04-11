@@ -69,20 +69,52 @@ p {
     letter-spacing: -0.32px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-self: stretch;
-}
-
 a {
+    /* DS - Mobile/Body Heavy */
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 137.5% */
+    letter-spacing: -0.32px;
+    color: white;
     text-decoration: none;
-    color: var(--white);
 }
 
-.link{
+.link {
     color: var(--White, var(--Base-White, #FFF));
+}
+
+.navbar-toggler {
+    display: flex;
+    padding: 10px 21px;
+    align-items: center;
+    gap: 8px;
+    /* From https://css.glass */
+    background: rgba(34, 3, 31, 0.22);
+    border-radius: 45px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.6px);
+    -webkit-backdrop-filter: blur(4.6px);
+    border: 1px solid rgba(34, 3, 31, 0.21);
+}
+
+.navbar-nav {
+    display: flex;
+    padding: 10px 21px;
+    align-items: left;
+    gap: 8px;
+    /* From https://css.glass */
+    background: white;
+    border-radius: 35px;
+}
+
+.nav-item{
+    color: #22031F;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: left;
 }
 
 .hero {
@@ -92,20 +124,42 @@ a {
     padding: 30px 30px 50px 30px;
     flex-direction: column;
     align-items: center;
-    gap: 237px;
+    gap: 350px;
     background-image: url(../Assets/Images/Hero\ image.png);
+    background-size: cover;
+}
+
+.hero-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    align-self: stretch;
+    color: white;
+}
+
+.hero-div {
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
 }
 
 .logo-hero {
-    width: 60px;
-    height: 47px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    aspect-ratio: 342.00/132.60;
+    margin-bottom: 20px;
 }
 
 .logo-hero-image {
     width: 100%;
-    height: 100%;
 }
-
 
 .menu-button {
     display: flex;
@@ -113,16 +167,26 @@ a {
     align-items: center;
     gap: 8px;
     border-radius: 100px;
-    background: linear-gradient(0deg, #171717 0%, #171717 100%), rgba(43, 43, 43, 0.35);
+    background: linear-gradient(rgba(23, 23, 23, 0.15), rgba(34, 3, 31, 0.25)), rgba(202, 112, 157, 0.25);
     background-blend-mode: plus-lighter, normal;
-    box-shadow: 3px 3px 0.5px -3.5px #FFF inset, 2px 2px 0.5px -2px #262626 inset, -2px -2px 0.5px -2px #262626 inset, 0 0 0 1px #A6A6A6 inset, 0 0 8px 0 #F2F2F2 inset, 0 0 2px 0 rgba(0, 0, 0, 0.10), 0 1px 8px 0 rgba(0, 0, 0, 0.10);
+    box-shadow: 3px 3px 0.5px -3.5px #FFF inset, 3px 3px 2px -4px #262626 inset, 2px 2px 0.5px -2px rgba(255, 255, 255, 0.38) inset, -2px -2px 0.5px -2px rgba(255, 255, 255, 0.23), 0 0 1px 1.5px rgba(0, 0, 0, 0.23) inset, 0 0 8px 0 rgba(0, 0, 0, 0.1), 0 1px 8px 0 rgba(0, 0, 0, 0.1) 0 1px;
     backdrop-filter: blur(6px);
 }
 
-.bi bi-list{
-
+.navbar-toggler-icon {
+    filter: invert(1) grayscale(100%) brightness(200%);
 }
 
-.nav-links {
-    display: none;
+.button {
+    display: flex;
+    padding: 10px 21px;
+    align-items: center;
+    gap: 8px;
+    /* From https://css.glass */
+    background: rgba(34, 3, 31, 0.22);
+    border-radius: 45px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.6px);
+    -webkit-backdrop-filter: blur(4.6px);
+    border: 1px solid rgba(34, 3, 31, 0.21);
 }
