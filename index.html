@@ -2,32 +2,42 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Debora</title>
 
-    <!-- Links Bootstrap -->
+    <!-- link a google font -->
+
+    <!-- links Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
 <body>
-    <header>
-        <div>
-            <img src="Assets/Images/logo navbar.png" alt="logo navbar">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#about">Acerca del Estudio</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Hablemos</a></li>
-            </ul>
+    <header class="hero">
+        <nav class="nav">
+            <div class="logo-hero">
+                <img class="logo-hero-image" src="Assets/Images/logo navbar.png" alt="logo navbar">
+            </div>
+            <div menu-button>
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li class="link"><a href="#inicio">Inicio</a></li>
+                    <li><a href="#about">Sobre el Estudio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                </ul>
+            </div>
+
         </nav>
     </header>
     <section id="inicio">
@@ -42,7 +52,7 @@
 
     </section>
 
-    <section>
+    <section id="servicios">
         <div>
             <h1>Traduciendo Visión en poderosos Sistemas Visuales.</h1>
             <span>Las grandes marcas se construyen sobre el equilibrio entre Estrategia e Identidad. Mientras los
@@ -119,7 +129,7 @@
         </div>
 
     </section>
-    <section>
+    <section id="proyectos seleccionados">
         <h1>Proyectos Seleccionados</h1>
         <div>
             <div>
@@ -148,11 +158,101 @@
                 <h5>UX/UI</h5>
             </div>
         </div>
+        <div>
+            <link rel="stylesheet" href=""><i class="bi bi-arrow-right-short"></i>
+            <h3>AKORA: Una Visión de Techwear Femenino.</h3>
+            <p>AKORA no es solo una colección de productos; es una manifestación de utilidad futura. Combina la
+                resistencia de materiales técnicos con una estética delicada pero poderosa. Mi rol fue traducir este
+                complejo equilibrio en un sistema visual integral, elaborando desde las bases de identidad de la marca
+                hasta una línea de productos 3D diseñada para redefinir la movilidad urbana.</p>
+        </div>
     </section>
+    <section id="acerca del estudio">
+        <div>
+            <h5>La Mente Detrás de escena</h5>
+            <h3>Fusionando 8 años de experiencia en diseño con versatilidad técnica y alma digital.</h3>
+        </div>
+        <div>
+            <p>Soy un Diseñador Gráfico radicado en Chile, graduado de Santo Tomás, con más de siete años de experiencia
+                profesional en el mundo de las agencias. Mi experiencia me ha enseñado que una gran estrategia es tan
+                buena como su ejecución. En Debel Studio, cierro esa brecha construyendo sistemas visuales de alto
+                impacto con un conjunto de herramientas especializadas.</p>
+        </div>
+        <div><span>line</span></div>
+        <div>
+            <div>
+                <div>
+                    <img src="Assets/Images/affinity icon.png" alt="Affinity icon">
+                    <img src="Assets/Images/adobe icon.png" alt="Adobe icon">
+                </div>
+                <div>
+                    <h5>Sistemas Visuales y de Identidad</h5>
+                    <p>Entregando activos perfectos que mantienen su integridad en cualquier medio.</p>
+                </div>
 
+                <div>
+                    <img src="Assets/Images/figma icon.png" alt="Figma icon">
+                    <img src="Assets/Images/webflow icon.png" alt="Webflow icon">
+                </div>
+                <div>
+                    <h5>UX/UI y Arquitectura Digital</h5>
+                    <p>Construyendo puentes digitales intuitivos entre las marcas y sus usuarios.</p>
+                </div>
+
+                <div>
+                    <img src="Assets/Images/blender icon.png" alt="Blender icon">
+                </div>
+                <div>
+                    <h5>Diseño 3D y Espacial</h5>
+                    <p>Añadiendo una nueva dimensión a la identidad de marca a través de la creación digital inmersiva.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <div>
+            <h2>¿Listo para construir tu motor visual? </h2>
+        </div>
+        <div>
+            <!-- formulario aquí -->
+            <link rel="stylesheet" href="botón enviar"><i class="bi bi-arrow-right-short"></i>
+        </div>
+    </section>
     </main>
     <footer>
-        <p>Esto es un Footer Weeeee</p>
+        <div>
+            <img src="Assets/Images/footer logo.png" alt="footer logo">
+            <div>
+                <span>Conoce a Debki, nuestra musa virtual.</span>
+                <link rel="stylesheet" href="Botón footer"><i class="bi bi-arrow-right-short"></i>
+            </div>
+            <div><i class="bi bi-asterisk"></i><span>Disponible para colaboraciones selectas.</span></div>
+        </div>
+        <div>
+            <div>
+                <ul>
+                    <li>studio.debel@gmail.com</li>
+                    <li>La Serena, Chile</li>
+                    <li>Diseño y Desarrollo por Debel Studio.</li>
+                    <li>© 2026 Debel Studio. Todos los derechos reservados.</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#about">Sobre el Estudio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#projects">Proyectos Seleccionados</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="https://www.behance.net/debelstudio">Behance</a></li>
+                    <li><a href="https://www.instagram.com/debelstudio">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
 </body>
 
