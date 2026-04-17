@@ -10,12 +10,14 @@
     --white: #FFFFFF;
 }
 
+
 body {
     background-color: white;
-    font-family: Satoshi;
-    margin: 0;
-    padding: 0;
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
 }
+
+/* Headings */
 
 h1 {
     /* DS - Mobile/H1 */
@@ -104,7 +106,7 @@ h5 {
     color: #1A2008;
 }
 
-.h5-pink-tag {
+.pink-tag {
     /* DS - Mobile/H5 */
     font-size: 25px;
     font-style: normal;
@@ -179,7 +181,8 @@ span {
 
 .p-deep-purple {
     /* DS - Mobile/Body Heavy */
-    color: #22031F font-size: 16px;
+    color: #22031F;
+    font-size: 16px;
     font-style: medium;
     font-weight: 600;
     line-height: 22px;
@@ -288,7 +291,7 @@ a {
     display: flex;
     width: 100%;
     height: 100vh;
-    padding: 2em; 1em;
+    padding: 2em;
     flex-direction: column;
     background-image: linear-gradient(0deg, #22031fc7, #0000 60%), url(/assets/images/hero\ section.webp);
     background-size: auto, cover;
@@ -358,7 +361,7 @@ a {
     border-radius: 35px;
 }
 
-.button-pink {
+.pink-button {
     display: flex;
     justify-content: space-between;
     width: auto;
@@ -378,7 +381,6 @@ a {
     background-color: #22031F;
     color: white;
     padding: 3em;
-    1.5em;
 }
 
 .services-container {
@@ -407,7 +409,6 @@ a {
     background-color: rgba(255, 201, 215, 0.1);
     border-radius: 25px;
     padding: 1.5em;
-    2em;
     margin-bottom: 1em;
 }
 
@@ -429,7 +430,6 @@ a {
     background-color: #1A2008;
     color: white;
     padding: 3em;
-    1.5em;
 }
 
 .main-cases-div {
@@ -442,7 +442,6 @@ a {
     background-color: #1A2008;
     color: white;
     padding: 3em;
-    1.5em;
     display: flex;
     flex-flow: column;
 }
@@ -600,7 +599,6 @@ a {
     background-color: white;
     color: #22031F;
     padding: 3em;
-    1.5em;
 }
 
 .sistemas-visuales-div {
@@ -713,7 +711,6 @@ a {
     background-color: #FCFFB6;
     color: #1A2008;
     padding: 3em;
-    1.5em;
 }
 
 .contact-container {
@@ -748,17 +745,17 @@ a {
 .form-group{
     display: flex;
     flex-flow: column;
-    gap: 8px;
+    gap: px;
 }
 
 .btn-primary {
     /* From https://css.glass */
-    background: #1a20088e;
+    background: #1a2008bd;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5.1px);
     -webkit-backdrop-filter: blur(5.1px);
-    border: 1px solid rgba(140, 157, 89, 0.38);
+    border: 1px solid rgba(47, 54, 26, 0.726);
     border-radius: 35px;
     padding: 10px 21px;
     gap: 8px;
@@ -779,7 +776,6 @@ footer {
     background-color: #FCFFB6;
     color: #1A2008;
     padding: 0.5em;
-    0.5em;
     display: flex;
     flex-flow: column;
     gap: 8px;
@@ -813,7 +809,7 @@ footer {
 }
 
 
-.pink-button-footer {
+.pink-footer {
     width: auto;
     height: auto;
     font-size: 20px;
@@ -889,7 +885,6 @@ footer {
         background-color: rgba(255, 201, 215, 0.1);
         border-radius: 25px;
         padding: 1.5em;
-        2em;
         margin-top: 1em;
     }
 
@@ -916,7 +911,6 @@ footer {
         display: flex;
         background-color: #22031F;
         padding: 3em;
-        1em;
         color: white;
         flex-flow: column;
         gap: 40px;
@@ -974,7 +968,6 @@ footer {
         display: flex;
         background-color: #22031F;
         padding: 3em;
-        1em;
         color: white;
         flex-flow: column;
         gap: 40px;
