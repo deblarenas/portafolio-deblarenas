@@ -294,6 +294,7 @@ a {
     padding: 2em;
     flex-direction: column;
     background-image: linear-gradient(0deg, #22031fc7, #0000 60%), url(/assets/images/hero\ section.webp);
+    background-position: center;
     background-size: auto, cover;
     justify-content: space-between;
     padding-bottom: 5em;
